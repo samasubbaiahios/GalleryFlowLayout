@@ -1,0 +1,10 @@
+/* 
+  InfoPlist.strings
+  BlackwellAcademy
+
+  Created by Mauricio Pimienta Sosa on 10/9/18.
+  Copyright © 2018 Mauricio Pimienta. All rights reserved.
+*/
+
+"SHORTCUT_TITLE_REGISTERNEW" = "Register New";
+"SHORTCUT_SUBTITLE_REGISTERNEW" = "Register a new student";

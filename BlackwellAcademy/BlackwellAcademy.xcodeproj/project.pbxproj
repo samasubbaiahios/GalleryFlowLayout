@@ -1,0 +1,731 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ED4FB308215ACE650003B7A2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ED4FB307215ACE650003B7A2 /* AppDelegate.m */; };
+		ED4FB30E215ACE650003B7A2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED4FB30C215ACE650003B7A2 /* Main.storyboard */; };
+		ED4FB310215ACE670003B7A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED4FB30F215ACE670003B7A2 /* Assets.xcassets */; };
+		ED4FB313215ACE670003B7A2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED4FB311215ACE670003B7A2 /* LaunchScreen.storyboard */; };
+		ED4FB316215ACE670003B7A2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ED4FB315215ACE670003B7A2 /* main.m */; };
+		ED4FB320215ACE670003B7A2 /* BlackwellAcademyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ED4FB31F215ACE670003B7A2 /* BlackwellAcademyTests.m */; };
+		ED4FB33A215B04500003B7A2 /* BWAcademyHomepageVC.m in Sources */ = {isa = PBXBuildFile; fileRef = ED4FB339215B04500003B7A2 /* BWAcademyHomepageVC.m */; };
+		ED4FB343215B0F780003B7A2 /* BWStudentsTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = ED4FB342215B0F780003B7A2 /* BWStudentsTVC.m */; };
+		ED4FB347215B10B80003B7A2 /* StudentCellV.m in Sources */ = {isa = PBXBuildFile; fileRef = ED4FB346215B10B80003B7A2 /* StudentCellV.m */; };
+		ED4FB34E215B3FD70003B7A2 /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = ED4FB34D215B3FD70003B7A2 /* Student.m */; };
+		ED4FB355215BFC4E0003B7A2 /* BlackwellAcademyDB.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = ED4FB354215BFC440003B7A2 /* BlackwellAcademyDB.sqlite */; };
+		ED4FB356215C0B590003B7A2 /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = ED4FB33D215B05B50003B7A2 /* Constants.m */; };
+		ED4FB357215C0B780003B7A2 /* BWAcademyService.m in Sources */ = {isa = PBXBuildFile; fileRef = ED4FB34A215B14A50003B7A2 /* BWAcademyService.m */; };
+		ED78C696215ED80F00ACE781 /* BWStudentDetailsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = ED78C695215ED80F00ACE781 /* BWStudentDetailsVC.m */; };
+		ED78C69A215EDEA300ACE781 /* StudentProfileImageV.m in Sources */ = {isa = PBXBuildFile; fileRef = ED78C699215EDEA300ACE781 /* StudentProfileImageV.m */; };
+		ED78C69D215F130900ACE781 /* RegisterNewStudentVC.m in Sources */ = {isa = PBXBuildFile; fileRef = ED78C69C215F130900ACE781 /* RegisterNewStudentVC.m */; };
+		ED78C6A1215F14A800ACE781 /* NewStudentTFV.m in Sources */ = {isa = PBXBuildFile; fileRef = ED78C6A0215F14A800ACE781 /* NewStudentTFV.m */; };
+		ED82BBFE216029890045BA89 /* StudentAgeAndGradePV.m in Sources */ = {isa = PBXBuildFile; fileRef = ED82BBFC216028AD0045BA89 /* StudentAgeAndGradePV.m */; };
+		EDAB597B215C0D3B0072378E /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = EDAB597A215C0D3B0072378E /* libsqlite3.0.tbd */; };
+		EDAB597E215C25DC0072378E /* StudentsBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = EDAB597D215C25DC0072378E /* StudentsBtn.m */; };
+		EDAB5983215C42F00072378E /* BWStudentsGalleryVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EDAB5982215C42F00072378E /* BWStudentsGalleryVC.m */; };
+		EDAB598B215C4B3C0072378E /* StudentCVCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EDAB598A215C4B3C0072378E /* StudentCVCell.m */; };
+		EDCD6005215D90D500CE8D23 /* BWLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = EDCD6004215D90D500CE8D23 /* BWLayout.m */; };
+		EDD8803A216D13D900F1F08C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EDD88039216D13D900F1F08C /* InfoPlist.strings */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ED4FB31C215ACE670003B7A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED4FB2FB215ACE650003B7A2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED4FB302215ACE650003B7A2;
+			remoteInfo = BlackwellAcademy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ED4FB303215ACE650003B7A2 /* BlackwellAcademy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlackwellAcademy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED4FB306215ACE650003B7A2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ED4FB307215ACE650003B7A2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ED4FB30D215ACE650003B7A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ED4FB30F215ACE670003B7A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ED4FB312215ACE670003B7A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ED4FB314215ACE670003B7A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED4FB315215ACE670003B7A2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ED4FB31B215ACE670003B7A2 /* BlackwellAcademyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlackwellAcademyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED4FB31F215ACE670003B7A2 /* BlackwellAcademyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlackwellAcademyTests.m; sourceTree = "<group>"; };
+		ED4FB321215ACE670003B7A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED4FB32D215B02DD0003B7A2 /* libz.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.dylib; path = ../../../../../usr/lib/libz.1.dylib; sourceTree = "<group>"; };
+		ED4FB32F215B02FE0003B7A2 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = ../../../../../usr/lib/libsqlite3.dylib; sourceTree = "<group>"; };
+		ED4FB338215B04500003B7A2 /* BWAcademyHomepageVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BWAcademyHomepageVC.h; sourceTree = "<group>"; };
+		ED4FB339215B04500003B7A2 /* BWAcademyHomepageVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BWAcademyHomepageVC.m; sourceTree = "<group>"; };
+		ED4FB33C215B05B50003B7A2 /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		ED4FB33D215B05B50003B7A2 /* Constants.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
+		ED4FB341215B0F780003B7A2 /* BWStudentsTVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BWStudentsTVC.h; sourceTree = "<group>"; };
+		ED4FB342215B0F780003B7A2 /* BWStudentsTVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BWStudentsTVC.m; sourceTree = "<group>"; };
+		ED4FB345215B10B80003B7A2 /* StudentCellV.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StudentCellV.h; sourceTree = "<group>"; };
+		ED4FB346215B10B80003B7A2 /* StudentCellV.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StudentCellV.m; sourceTree = "<group>"; };
+		ED4FB349215B14A50003B7A2 /* BWAcademyService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BWAcademyService.h; sourceTree = "<group>"; };
+		ED4FB34A215B14A50003B7A2 /* BWAcademyService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BWAcademyService.m; sourceTree = "<group>"; };
+		ED4FB34C215B3FD70003B7A2 /* Student.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
+		ED4FB34D215B3FD70003B7A2 /* Student.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
+		ED4FB354215BFC440003B7A2 /* BlackwellAcademyDB.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = BlackwellAcademyDB.sqlite; sourceTree = "<group>"; };
+		ED78C694215ED80F00ACE781 /* BWStudentDetailsVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BWStudentDetailsVC.h; sourceTree = "<group>"; };
+		ED78C695215ED80F00ACE781 /* BWStudentDetailsVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BWStudentDetailsVC.m; sourceTree = "<group>"; };
+		ED78C698215EDEA300ACE781 /* StudentProfileImageV.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StudentProfileImageV.h; sourceTree = "<group>"; };
+		ED78C699215EDEA300ACE781 /* StudentProfileImageV.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StudentProfileImageV.m; sourceTree = "<group>"; };
+		ED78C69B215F130900ACE781 /* RegisterNewStudentVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RegisterNewStudentVC.h; sourceTree = "<group>"; };
+		ED78C69C215F130900ACE781 /* RegisterNewStudentVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RegisterNewStudentVC.m; sourceTree = "<group>"; };
+		ED78C69F215F14A800ACE781 /* NewStudentTFV.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NewStudentTFV.h; sourceTree = "<group>"; };
+		ED78C6A0215F14A800ACE781 /* NewStudentTFV.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NewStudentTFV.m; sourceTree = "<group>"; };
+		ED82BBFB216028AD0045BA89 /* StudentAgeAndGradePV.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StudentAgeAndGradePV.h; sourceTree = "<group>"; };
+		ED82BBFC216028AD0045BA89 /* StudentAgeAndGradePV.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StudentAgeAndGradePV.m; sourceTree = "<group>"; };
+		EDAB597A215C0D3B0072378E /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		EDAB597C215C25DC0072378E /* StudentsBtn.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StudentsBtn.h; sourceTree = "<group>"; };
+		EDAB597D215C25DC0072378E /* StudentsBtn.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StudentsBtn.m; sourceTree = "<group>"; };
+		EDAB5981215C42F00072378E /* BWStudentsGalleryVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BWStudentsGalleryVC.h; sourceTree = "<group>"; };
+		EDAB5982215C42F00072378E /* BWStudentsGalleryVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BWStudentsGalleryVC.m; sourceTree = "<group>"; };
+		EDAB5989215C4B3C0072378E /* StudentCVCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StudentCVCell.h; sourceTree = "<group>"; };
+		EDAB598A215C4B3C0072378E /* StudentCVCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StudentCVCell.m; sourceTree = "<group>"; };
+		EDCD6003215D90D500CE8D23 /* BWLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWLayout.h; sourceTree = "<group>"; };
+		EDCD6004215D90D500CE8D23 /* BWLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWLayout.m; sourceTree = "<group>"; };
+		EDD88039216D13D900F1F08C /* InfoPlist.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = InfoPlist.strings; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ED4FB300215ACE650003B7A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDAB597B215C0D3B0072378E /* libsqlite3.0.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED4FB318215ACE670003B7A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ED37A16421631084000E7BC5 /* BWStudentsTable */ = {
+			isa = PBXGroup;
+			children = (
+				ED4FB341215B0F780003B7A2 /* BWStudentsTVC.h */,
+				ED4FB342215B0F780003B7A2 /* BWStudentsTVC.m */,
+			);
+			path = BWStudentsTable;
+			sourceTree = "<group>";
+		};
+		ED37A16521631096000E7BC5 /* BWStudentDetails */ = {
+			isa = PBXGroup;
+			children = (
+				ED78C694215ED80F00ACE781 /* BWStudentDetailsVC.h */,
+				ED78C695215ED80F00ACE781 /* BWStudentDetailsVC.m */,
+			);
+			path = BWStudentDetails;
+			sourceTree = "<group>";
+		};
+		ED4FB2FA215ACE650003B7A2 = {
+			isa = PBXGroup;
+			children = (
+				EDD88039216D13D900F1F08C /* InfoPlist.strings */,
+				ED4FB305215ACE650003B7A2 /* BlackwellAcademy */,
+				ED4FB31E215ACE670003B7A2 /* BlackwellAcademyTests */,
+				ED4FB304215ACE650003B7A2 /* Products */,
+				ED4FB32A215B021E0003B7A2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		ED4FB304215ACE650003B7A2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ED4FB303215ACE650003B7A2 /* BlackwellAcademy.app */,
+				ED4FB31B215ACE670003B7A2 /* BlackwellAcademyTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ED4FB305215ACE650003B7A2 /* BlackwellAcademy */ = {
+			isa = PBXGroup;
+			children = (
+				ED4FB337215B04110003B7A2 /* AppDelegate */,
+				ED4FB34F215B4B520003B7A2 /* SqliteDatabase */,
+				ED4FB348215B14850003B7A2 /* BWAcademyService */,
+				ED4FB33B215B05920003B7A2 /* Constants */,
+				ED4FB336215B040A0003B7A2 /* Model */,
+				ED4FB335215B04030003B7A2 /* Controller */,
+				ED4FB334215B03F90003B7A2 /* View */,
+				ED4FB30C215ACE650003B7A2 /* Main.storyboard */,
+				ED4FB30F215ACE670003B7A2 /* Assets.xcassets */,
+				ED4FB311215ACE670003B7A2 /* LaunchScreen.storyboard */,
+				ED4FB314215ACE670003B7A2 /* Info.plist */,
+				ED4FB315215ACE670003B7A2 /* main.m */,
+			);
+			path = BlackwellAcademy;
+			sourceTree = "<group>";
+		};
+		ED4FB31E215ACE670003B7A2 /* BlackwellAcademyTests */ = {
+			isa = PBXGroup;
+			children = (
+				ED4FB31F215ACE670003B7A2 /* BlackwellAcademyTests.m */,
+				ED4FB321215ACE670003B7A2 /* Info.plist */,
+			);
+			path = BlackwellAcademyTests;
+			sourceTree = "<group>";
+		};
+		ED4FB32A215B021E0003B7A2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EDAB597A215C0D3B0072378E /* libsqlite3.0.tbd */,
+				ED4FB32F215B02FE0003B7A2 /* libsqlite3.dylib */,
+				ED4FB32D215B02DD0003B7A2 /* libz.1.dylib */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ED4FB334215B03F90003B7A2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				ED78C69E215F147900ACE781 /* RegisterNewStudentV */,
+				ED78C697215EDE7D00ACE781 /* StudentDetailView */,
+				EDAB5988215C4B1E0072378E /* StudentGallery */,
+				ED4FB344215B108F0003B7A2 /* StudentCell */,
+				EDAB597F215C25E10072378E /* StudentsButton */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		ED4FB335215B04030003B7A2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				EDAB5980215C42D30072378E /* BWStudentsGallery */,
+				ED4FB340215B0F540003B7A2 /* BWStudents */,
+				ED4FB33F215B0F3B0003B7A2 /* BWAcademyHomePage */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		ED4FB336215B040A0003B7A2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				ED4FB34C215B3FD70003B7A2 /* Student.h */,
+				ED4FB34D215B3FD70003B7A2 /* Student.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		ED4FB337215B04110003B7A2 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				ED4FB306215ACE650003B7A2 /* AppDelegate.h */,
+				ED4FB307215ACE650003B7A2 /* AppDelegate.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		ED4FB33B215B05920003B7A2 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				ED4FB33C215B05B50003B7A2 /* Constants.h */,
+				ED4FB33D215B05B50003B7A2 /* Constants.m */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		ED4FB33F215B0F3B0003B7A2 /* BWAcademyHomePage */ = {
+			isa = PBXGroup;
+			children = (
+				ED4FB338215B04500003B7A2 /* BWAcademyHomepageVC.h */,
+				ED4FB339215B04500003B7A2 /* BWAcademyHomepageVC.m */,
+			);
+			path = BWAcademyHomePage;
+			sourceTree = "<group>";
+		};
+		ED4FB340215B0F540003B7A2 /* BWStudents */ = {
+			isa = PBXGroup;
+			children = (
+				ED37A16421631084000E7BC5 /* BWStudentsTable */,
+				ED37A16521631096000E7BC5 /* BWStudentDetails */,
+				ED7173DE2162A208005D2D47 /* RegisterNewStudent */,
+			);
+			path = BWStudents;
+			sourceTree = "<group>";
+		};
+		ED4FB344215B108F0003B7A2 /* StudentCell */ = {
+			isa = PBXGroup;
+			children = (
+				ED4FB345215B10B80003B7A2 /* StudentCellV.h */,
+				ED4FB346215B10B80003B7A2 /* StudentCellV.m */,
+			);
+			path = StudentCell;
+			sourceTree = "<group>";
+		};
+		ED4FB348215B14850003B7A2 /* BWAcademyService */ = {
+			isa = PBXGroup;
+			children = (
+				ED4FB349215B14A50003B7A2 /* BWAcademyService.h */,
+				ED4FB34A215B14A50003B7A2 /* BWAcademyService.m */,
+			);
+			path = BWAcademyService;
+			sourceTree = "<group>";
+		};
+		ED4FB34F215B4B520003B7A2 /* SqliteDatabase */ = {
+			isa = PBXGroup;
+			children = (
+				ED4FB354215BFC440003B7A2 /* BlackwellAcademyDB.sqlite */,
+			);
+			path = SqliteDatabase;
+			sourceTree = "<group>";
+		};
+		ED7173DE2162A208005D2D47 /* RegisterNewStudent */ = {
+			isa = PBXGroup;
+			children = (
+				ED78C69B215F130900ACE781 /* RegisterNewStudentVC.h */,
+				ED78C69C215F130900ACE781 /* RegisterNewStudentVC.m */,
+			);
+			path = RegisterNewStudent;
+			sourceTree = "<group>";
+		};
+		ED78C697215EDE7D00ACE781 /* StudentDetailView */ = {
+			isa = PBXGroup;
+			children = (
+				ED78C698215EDEA300ACE781 /* StudentProfileImageV.h */,
+				ED78C699215EDEA300ACE781 /* StudentProfileImageV.m */,
+			);
+			path = StudentDetailView;
+			sourceTree = "<group>";
+		};
+		ED78C69E215F147900ACE781 /* RegisterNewStudentV */ = {
+			isa = PBXGroup;
+			children = (
+				ED78C69F215F14A800ACE781 /* NewStudentTFV.h */,
+				ED78C6A0215F14A800ACE781 /* NewStudentTFV.m */,
+				ED82BBFB216028AD0045BA89 /* StudentAgeAndGradePV.h */,
+				ED82BBFC216028AD0045BA89 /* StudentAgeAndGradePV.m */,
+			);
+			path = RegisterNewStudentV;
+			sourceTree = "<group>";
+		};
+		EDAB597F215C25E10072378E /* StudentsButton */ = {
+			isa = PBXGroup;
+			children = (
+				EDAB597C215C25DC0072378E /* StudentsBtn.h */,
+				EDAB597D215C25DC0072378E /* StudentsBtn.m */,
+			);
+			path = StudentsButton;
+			sourceTree = "<group>";
+		};
+		EDAB5980215C42D30072378E /* BWStudentsGallery */ = {
+			isa = PBXGroup;
+			children = (
+				EDAB5981215C42F00072378E /* BWStudentsGalleryVC.h */,
+				EDAB5982215C42F00072378E /* BWStudentsGalleryVC.m */,
+			);
+			path = BWStudentsGallery;
+			sourceTree = "<group>";
+		};
+		EDAB5988215C4B1E0072378E /* StudentGallery */ = {
+			isa = PBXGroup;
+			children = (
+				EDCD6002215D90C400CE8D23 /* BWLayout */,
+				EDAB5989215C4B3C0072378E /* StudentCVCell.h */,
+				EDAB598A215C4B3C0072378E /* StudentCVCell.m */,
+			);
+			path = StudentGallery;
+			sourceTree = "<group>";
+		};
+		EDCD6002215D90C400CE8D23 /* BWLayout */ = {
+			isa = PBXGroup;
+			children = (
+				EDCD6003215D90D500CE8D23 /* BWLayout.h */,
+				EDCD6004215D90D500CE8D23 /* BWLayout.m */,
+			);
+			path = BWLayout;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ED4FB302215ACE650003B7A2 /* BlackwellAcademy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED4FB324215ACE670003B7A2 /* Build configuration list for PBXNativeTarget "BlackwellAcademy" */;
+			buildPhases = (
+				ED4FB2FF215ACE650003B7A2 /* Sources */,
+				ED4FB300215ACE650003B7A2 /* Frameworks */,
+				ED4FB301215ACE650003B7A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BlackwellAcademy;
+			productName = BlackwellAcademy;
+			productReference = ED4FB303215ACE650003B7A2 /* BlackwellAcademy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ED4FB31A215ACE670003B7A2 /* BlackwellAcademyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED4FB327215ACE670003B7A2 /* Build configuration list for PBXNativeTarget "BlackwellAcademyTests" */;
+			buildPhases = (
+				ED4FB317215ACE670003B7A2 /* Sources */,
+				ED4FB318215ACE670003B7A2 /* Frameworks */,
+				ED4FB319215ACE670003B7A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED4FB31D215ACE670003B7A2 /* PBXTargetDependency */,
+			);
+			name = BlackwellAcademyTests;
+			productName = BlackwellAcademyTests;
+			productReference = ED4FB31B215ACE670003B7A2 /* BlackwellAcademyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ED4FB2FB215ACE650003B7A2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Mauricio Pimienta";
+				TargetAttributes = {
+					ED4FB302215ACE650003B7A2 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					ED4FB31A215ACE670003B7A2 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = ED4FB302215ACE650003B7A2;
+					};
+				};
+			};
+			buildConfigurationList = ED4FB2FE215ACE650003B7A2 /* Build configuration list for PBXProject "BlackwellAcademy" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ED4FB2FA215ACE650003B7A2;
+			productRefGroup = ED4FB304215ACE650003B7A2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED4FB302215ACE650003B7A2 /* BlackwellAcademy */,
+				ED4FB31A215ACE670003B7A2 /* BlackwellAcademyTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ED4FB301215ACE650003B7A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED4FB355215BFC4E0003B7A2 /* BlackwellAcademyDB.sqlite in Resources */,
+				ED4FB313215ACE670003B7A2 /* LaunchScreen.storyboard in Resources */,
+				ED4FB310215ACE670003B7A2 /* Assets.xcassets in Resources */,
+				ED4FB30E215ACE650003B7A2 /* Main.storyboard in Resources */,
+				EDD8803A216D13D900F1F08C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED4FB319215ACE670003B7A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ED4FB2FF215ACE650003B7A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED82BBFE216029890045BA89 /* StudentAgeAndGradePV.m in Sources */,
+				ED78C696215ED80F00ACE781 /* BWStudentDetailsVC.m in Sources */,
+				ED4FB357215C0B780003B7A2 /* BWAcademyService.m in Sources */,
+				EDAB597E215C25DC0072378E /* StudentsBtn.m in Sources */,
+				ED4FB356215C0B590003B7A2 /* Constants.m in Sources */,
+				ED4FB347215B10B80003B7A2 /* StudentCellV.m in Sources */,
+				ED4FB34E215B3FD70003B7A2 /* Student.m in Sources */,
+				ED4FB33A215B04500003B7A2 /* BWAcademyHomepageVC.m in Sources */,
+				ED4FB316215ACE670003B7A2 /* main.m in Sources */,
+				ED78C69D215F130900ACE781 /* RegisterNewStudentVC.m in Sources */,
+				ED4FB343215B0F780003B7A2 /* BWStudentsTVC.m in Sources */,
+				EDCD6005215D90D500CE8D23 /* BWLayout.m in Sources */,
+				ED78C6A1215F14A800ACE781 /* NewStudentTFV.m in Sources */,
+				EDAB5983215C42F00072378E /* BWStudentsGalleryVC.m in Sources */,
+				EDAB598B215C4B3C0072378E /* StudentCVCell.m in Sources */,
+				ED78C69A215EDEA300ACE781 /* StudentProfileImageV.m in Sources */,
+				ED4FB308215ACE650003B7A2 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED4FB317215ACE670003B7A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED4FB320215ACE670003B7A2 /* BlackwellAcademyTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ED4FB31D215ACE670003B7A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED4FB302215ACE650003B7A2 /* BlackwellAcademy */;
+			targetProxy = ED4FB31C215ACE670003B7A2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ED4FB30C215ACE650003B7A2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED4FB30D215ACE650003B7A2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ED4FB311215ACE670003B7A2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED4FB312215ACE670003B7A2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ED4FB322215ACE670003B7A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		ED4FB323215ACE670003B7A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ED4FB325215ACE670003B7A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = BlackwellAcademy/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sample.BlackwellAcademy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		ED4FB326215ACE670003B7A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = BlackwellAcademy/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sample.BlackwellAcademy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		ED4FB328215ACE670003B7A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 66Q3YCG7MY;
+				INFOPLIST_FILE = BlackwellAcademyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MP.BlackwellAcademyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BlackwellAcademy.app/BlackwellAcademy";
+			};
+			name = Debug;
+		};
+		ED4FB329215ACE670003B7A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 66Q3YCG7MY;
+				INFOPLIST_FILE = BlackwellAcademyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MP.BlackwellAcademyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BlackwellAcademy.app/BlackwellAcademy";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ED4FB2FE215ACE650003B7A2 /* Build configuration list for PBXProject "BlackwellAcademy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED4FB322215ACE670003B7A2 /* Debug */,
+				ED4FB323215ACE670003B7A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED4FB324215ACE670003B7A2 /* Build configuration list for PBXNativeTarget "BlackwellAcademy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED4FB325215ACE670003B7A2 /* Debug */,
+				ED4FB326215ACE670003B7A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED4FB327215ACE670003B7A2 /* Build configuration list for PBXNativeTarget "BlackwellAcademyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED4FB328215ACE670003B7A2 /* Debug */,
+				ED4FB329215ACE670003B7A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ED4FB2FB215ACE650003B7A2 /* Project object */;
+}
